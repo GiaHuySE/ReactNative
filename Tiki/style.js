@@ -3,7 +3,9 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
     container:{
         backgroundColor:'#bfbfbf',
-        flex:1
+        flex:1,
+        width:'100%',
+        height:'100%'
       },
       background_frag_above: {
         paddingTop:30,
@@ -160,7 +162,7 @@ export default StyleSheet.create({
       },
       background_NhapTaiDay:{
         position:'absolute',
-        width: 360,
+        width: 420,
         height: 51,
         left:0,
         top:297,
@@ -191,7 +193,7 @@ export default StyleSheet.create({
       },
       background_TamTinh:{
         position:'absolute',
-        width: 360,
+        width: 420,
         height: 51,
         left:1,
         top:360,
@@ -222,7 +224,7 @@ export default StyleSheet.create({
       },
       background_ThanhTien:{
         position:'absolute',
-        width: 361,
+        width: 420,
         height: 180,
         left:1,
         top:570,
